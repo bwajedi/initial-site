@@ -1,0 +1,163 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px; 
+	padding: 0 10px; 
+}
+
+
+/* Header */
+.header {
+   height: 800px;
+   text-align: center; 
+   background: url(images/bg.jpg) center;
+   background-size: 100%;
+}
+
+.header .container {
+	position: relative;
+	top: 200px;
+}
+
+.header h1 {
+	font-size: 80px;
+	line-height: 100px; 
+	margin-top: 0;
+	margin-bottom: 80px;
+   text-transform: uppercase;
+   color: white;
+}
+
+@media (min-width:850px) {
+	.header h1 {
+		font-size: 120px;
+	}
+}
+
+.header p {
+	font-weight: 500;
+	letter-spacing: 8px;
+	margin-bottom: 40px;
+	margin-top: 0;
+   text-transform: uppercase;
+   color: white;
+}
+
+.btn {
+   padding: 10px 40px;
+   background-color: black;
+   color: white;
+   text-decoration: none;
+}
+
+.btn:hover {
+	background: #117bff;
+	border: 1px solid black;
+	cursor: pointer; 
+	transition: background .5s;  
+}
+
+
+/* Nav */
+.nav ul {
+	list-style: none;
+	margin: 0 auto; 
+	padding: 30px 0;
+	text-align: left; 
+}
+
+.nav li {
+   display: inline;
+   color: white;
+   text-decoration: none;
+   margin: 0 10px;
+}
+
+.nav {
+   background-color: black;
+   width: 100%;
+}
+
+
+/* Main */
+.main .container {
+	margin: 70px auto;
+}
+
+.main img {
+   width: 200px;
+   margin-top: 50px;
+   float: left;
+}
+
+.main aside {
+	width: 700px;
+	float: right;
+		margin-bottom: 70px;
+}
+
+
+/* Jumbotron */
+.jumbotron {
+	height: 600px; 
+	text-align: right;
+   color: white;
+   background: url(images/jumbotron_bg.jpg) center center;
+   margin: 0;
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 220px;
+}
+
+.jumbotron h1 {
+	font-size: 1.5em;
+}
+
+.jumbotron p {
+	margin-bottom: 30px;
+}
+
+
+/* Footer */
+.footer { 
+	font-size: 14px;
+   color: white;
+   background-color: black;
+   height: 80px;
+}
+
+.footer p {
+	margin: 0;
+	line-height: 80px;
+}
+
+/* Media Queries */
+@media (max-width: 500px) {
+  .header h1 {
+     font-size: 50px;
+     line-height: 64px;
+  }
+
+  .main, .jumbotron {
+     padding: 0 30px;
+  }
+
+  .main img {
+     width: 100%;
+  }
+}

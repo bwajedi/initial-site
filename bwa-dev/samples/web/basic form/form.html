@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/form-style.css">
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<div class="container">
+		<form id="move-form" action="#" method="POST" novalidate>
+			<fieldset id="personal">
+				<legend>Personal Info</legend>
+				<!-- div to be hidden and shown with js upon error -->
+				<div class="error-message">
+					<span>Please fill out the highlighted sections below</span>
+				</div>
+				<p>
+					<label for="name">Name: </label>
+					<input type="text" id="name" name="name" placeholder="First/Last Name" required>
+					<span class='error' id="hidden-name-span"></span> <!-- hidden for validation -->
+				</p>
+				<p>
+					<label for="email">Email: </label>
+					<input type="email" id="email" name="email" placeholder="Email Address" required>
+					<span class='error' id="hidden-email-span"></span> <!-- hidden for validation -->
+				</p>
+				<p>
+					<label for="country">Country: </label>
+					<select id="country" name="country" required>
+						<option value="USA" checked>United States</option>
+						<option value="UK">United Kingdon</option>
+						<option value="CA">Canada</option>
+						<option value="EU">Europe</option>
+					</select>
+				</p>
+			</fieldset>
+
+			<fieldset id="interests">
+				<legend>Interests (Select all that apply - optional)</legend>
+				<div class="interests-left">
+					<p>
+						<input type="checkbox" name="interests" id="running" value="running">
+						<label for="running">Running</label>
+					</p>
+					<p>
+						<input type="checkbox" name="interests" id="swimming" value="swimming">
+						<label for="swimming">Swimming</label>
+					</p>
+					<p>
+						<input type="checkbox" name="interests" id="cycling" value="cycling">
+						<label for="cycling">Cycling</label>
+					</p>
+					<p>
+						<input type="checkbox" name="interests" id="weightlifting" value="weightlifting">
+						<label for="weightlifting">Weightlifting</label>
+					</p>
+					<p>
+						<input type="checkbox" name="interests" id="gymnastics" value="gymnastics">
+						<label for="gymnastics">Gymnastics</label>
+					</p>
+				</div>
+				<div class="interests-right">
+					<p>
+						<input type="checkbox" name="interests" id="mma" value="mma">
+						<label for="mma">MMA</label>
+					</p>
+					<p>
+						<input type="checkbox" name="interests" id="boxing" value="boxing">
+						<label for="boxing">Boxing</label>
+					</p>
+					<p>
+						<input type="checkbox" name="interests" id="skateboarding" value="skateboarding">
+						<label for="skateboarding">Skateboarding</label>
+					</p>
+					<p>
+						<input type="checkbox" name="interests" id="hiking" value="hiking">
+						<label for="hiking">Hiking</label>
+					</p>
+					<p>
+						<input type="checkbox" name="interests" id="climbing" value="climbing">
+						<label for="climbing">Climbing</label>
+					</p>
+				</div>
+			</fieldset>
+			<p>
+				<label for="marketing">Would you like to receive marketing emails?</label>
+				<input type="radio" name="marketing" value="yes" checked><label>Yes</label>
+				<input type="radio" name="marketing" value="no"><label>No</label>
+			</p>
+			<input type="submit" id="formSubmit">
+		</form>
+	</div> 
+
+<script type="text/javascript" src="js/formControl.js"></script>
+</body>
+</html>

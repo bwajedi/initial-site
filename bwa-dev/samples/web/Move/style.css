@@ -1,0 +1,178 @@
+html, body {
+  margin: 0;
+}
+
+h1, h2, a {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif; 
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+/* Main */
+.main {
+  height: 600px;
+  background: url(images/bg.jpg) center center;
+  background-size: 100%;
+  color: white;
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 150px;
+  margin: 0;
+  text-transform: uppercase;
+  padding-top: 100px;
+}
+
+.main p {
+  font-size: 18px;
+  margin: 0 0 35px 0;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color: #1c1c1c;
+  padding: 10px 40px;
+}
+
+.btn:hover {
+  color: black;
+  background-color: #ffa800;
+}
+
+
+/* Supporting */
+.supporting {
+  text-align: center;
+  padding: 50px 0 80px;
+  background-color: #1c1c1c;
+}
+
+.supporting .col {
+  float: left;
+  width: 28%;
+  padding: 10px;
+}
+
+.supporting h1,
+.supporting h2 {
+  color: #ffa800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #efefef;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Feature */
+.feature {
+  height: 600px;
+  background: url(images/feature.jpg) center center;
+  background-size: 100%;
+  text-align: center;
+}
+
+.feature h1,
+.feature h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0;
+  padding: 250px 0 0;
+}
+
+/* Premium */
+.premium {
+  text-align: center;
+  padding: 50px 0 80px;
+  background-color: #1c1c1c;
+}
+
+.premium h1 {
+  color: #ffa800;
+  font-size: 40px;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.premium p {
+  color: #efefef;
+  line-height: 20px;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.premium .btn {
+  text-decoration: none;
+  color: white;
+  background-color: #ffa800;
+  padding: 10px 40px;
+}
+
+.premium .btn:hover {
+  color: white;
+  background-color: black;
+}
+
+/* Footer */
+.footer {
+  height: 600px;
+  background: url(images/footer.jpg) center center;
+  background-size: 100%;
+  text-align: center;
+}
+
+.footer h1,
+.footer h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0 0 30px 0;
+  padding: 250px 0 0;
+}
+
+
+@media (min-width:600px) {
+  .main h1 {
+    font-size: 200px;
+  }
+
+  .supporting .col {
+    width: 30%;
+  }
+
+  .supporting h2 {
+    font-size: 40px;
+  }
+
+  .supporting p {
+    font-size: 14px;
+  }
+
+  .feature h2 {
+    font-size: 60px;
+  }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>BWA Web Development</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<section class="container">
+		<nav class="main-nav">
+			<div>
+				<button type="button" id="print-button">PRINT</button>
+				<button type="button" id="contact-button">CONTACT</button>
+				<button type="button" id="home-button" class="active-nav-li">HOME</button>
+				<button type="button" id="about-button">ABOUT</button>
+				<button type="button" id="web-button">WEB</button>
+			</div>
+		</nav>
+
+		<article id="home">
+			<img src="img/white.svg" alt="BWA Web Dev Logo" title="BWA {Brandon W Andrews} Web Development">
+		</article>
+
+		<article id="print" class="hidden">
+			<section id="print-content" >
+				<img src="samples/print/USA-broc.jpg" class="print-thumb" alt="image3">
+				<img src="samples/print/USA-tri-front.jpg" class="print-thumb" alt="image4">
+				<img src="samples/print/USA-tri-back.jpg" class="print-thumb" alt="image3">
+				<img src="samples/print/eightlimbs.jpg" class="print-thumb" alt="image1">
+				<img src="samples/print/Boxingcard.jpg" class="print-thumb" alt="image2">
+				<img src="samples/print/PampOC.jpg" class="print-thumb" alt="image3">
+				<img src="samples/print/USA-thanks-card.jpg" class="print-thumb" alt="image4">
+				<img src="samples/print/USA-card.jpg" class="print-thumb" alt="image4">
+				<img src="samples/print/Atlantis-card.jpg" class="print-thumb" alt="image4">
+				<img src="samples/print/LitB-card-front.jpg" class="print-thumb" alt="image1">
+				<img src="samples/print/RePeeps.jpg" class="print-thumb" alt="image3">
+				<img src="samples/print/LitB-front.jpg" class="print-thumb" alt="image1">
+			</section>
+		</article>
+
+		<article id="web" class="hidden">
+			<section id="web-content">
+				<a href="./samples/web/Move/index.html"><img src="samples/web/thumbs/move.jpg" class="web-thumb" alt="image1"></a>
+				<a href="./samples/web/Javascript-Drum-Kit/index.html"><img src="samples/web/thumbs/drum-kit.jpg" class="web-thumb" alt="image2"></a>
+				<a href="./samples/web/Flex-Panel-Gallery/index.html"><img src="samples/web/thumbs/flex-nav.jpg" class="web-thumb" alt="image3"></a>
+				<a href="./samples/web/Broadway/index.html"><img src="samples/web/thumbs/broadway.jpg" class="web-thumb" alt="image1"></a>
+				<a href="./samples/web/slide-on-scroll/index.html"><img src="samples/web/thumbs/image-slide.jpg" class="web-thumb" alt="image2"></a>
+				<a href="./samples/web/Innovation-Cloud/index.html"><img src="samples/web/thumbs/innovation-cloud.jpg" class="web-thumb" alt="image3"></a>
+				<a href="./samples/web/fixed-nav/index.html"><img src="samples/web/thumbs/lorem-nav.jpg" class="web-thumb" alt="image3"></a>
+			</section>
+		</article>
+
+		<article id="contact" class="hidden">
+			<section id="contact-content" class="contact-container">
+				<p>Located in Mission Viejo, California, I am available for work throughout Orange County.</p>
+				<p>I can be reached by phone at: <span id="phone"> 714-273-2871</span>.</p>
+				<p>Or through email at: <span id="email"><a href="mailto:bwajedi038@gmail.com"> bwajedi038@gmail.com</a></span></p>
+			</section>
+			<section id="contact-image" class="contact-container">
+				<img src="img/choc-hat1.jpg" alt="my portrait with a chocolate hat">
+			</section>
+		</article>
+
+		<article id="about" class="hidden">
+		<section id="about-image" class="about-container">
+				<img src="img/black-hat1.jpg" alt="my portrait with a black hat">
+			</section>
+			<section id="about-content" class="about-container">
+				<p>My name is Brandon Andrews and I am a frontend web developer and print production artist located in Mission Viejo, Orange County, California.</p>
+				<p>I am proficient in the following technologies/languages:</p>
+				<ul class="tech-list" id="web-list">
+					<li>HTML/HTML5</li>
+					<li>CSS/CSS3</li>
+					<li>JavaScript/ES6</li>
+					<li>jQuery</li>
+					<li>Bootstrap</li>
+				</ul>
+				<ul class="tech-list" id="print-list">
+					<li>GIT/GitHub</li>
+					<li>Gulp/Grunt</li>
+					<li>Adobe CS</li>
+					<li>MS Office</li>
+					<li>UI/UX Design - IA</li>
+				</ul>
+				<p class="clear">I also have previous PC tech certifications (which have lapsed but I still retain the knowledge) including A+ and Network+ through CompTIA.</p>
+			</section>
+		</article>
+
+	</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

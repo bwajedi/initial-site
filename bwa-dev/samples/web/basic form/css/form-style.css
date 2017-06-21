@@ -1,0 +1,78 @@
+body {
+	font-family: sans-serif;
+}
+
+.container {
+	width: 600px;
+	height: 600px;
+	position: fixed;
+	margin: 50px auto;
+	left: 0;
+	right: 0;
+}
+
+#move-form {
+	width: 500px;
+	margin: 45px auto;
+	background-color: white;
+	padding: 20px;
+	border-radius: 5%;
+	-webkit-border-radius: 5%;
+	border: 5px solid #1c1c1c;
+}
+
+#personal label {
+	display: inline-block;
+	width: 100px;
+}
+
+#interests input {
+	width: 25px;
+	display: inline-block;
+}
+
+input[type="radio"] {
+	width: 25px;
+	display: inline-block;
+}
+
+.interests-left {
+	float: left;
+}
+
+.interests-right {
+	float: right;
+}
+
+.error-border {
+	border: 2px solid red;
+}
+
+.error, .error-message {
+	color: red;
+	padding-left: 5px;
+}
+
+.error-message {
+	display: none;
+}
+
+.show {
+	display: inline;
+}
+
+#hidden-email-span, #hidden-name-span {
+	font-size: 12px;
+}
+
+#formSubmit {
+	background-color: #1c1c1c;
+	color: white;
+	border: none;
+	padding: 10px 15px;
+}
+
+#formSubmit:active {
+	background-color: white;
+	color: #1c1c1c;
+}
